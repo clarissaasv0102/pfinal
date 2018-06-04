@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>app10 Tutorial DAW </title>
+   <!--grupo CSS -->
+ <link rel="stylesheet" href="css/tema10.min.css" />
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+ <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js"></script><!--necesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/sut2.jpg','imagenes/sss2.jpg','imagenes/su2.jpg','imagenes/h2.gif','imagenes/yo2.png')">
+ <!--principal-->
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-position="fixed" data-tap-toggle="false">
+  <h1>Desarrollo de Aplicaciones Web</h1>
+  </div>
+<div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>ÍNDICE</h1><div> <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">        
+       <h2>Historia del HTML</h2>
+        </a>
+        </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>¿Qué es HTML?</h2>
+          </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>jj</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>JJ</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>oo</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>kk</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>kk</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>kk</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>kk</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>kk</h2>
+          </a>
+         </li>
+     </ul>
+        </div>
+        </div>
+        </div>
+        <div align="justify">
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.png" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.png" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/6.png" alt="http://wowslider.net/" title="6" id="wows1_5"/></a></li>
+		<li><img src="data1/images/7.png" alt="7" title="7" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.png" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.png" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.png" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.png" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.png" alt="7"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --> </div>
+<ul data-role="controlgroup" data-type="horizontal" data-theme="a" lang="af">
+<div style="width:10%;">
+ <li class="ui-first-child ui-last-child  ui-table-columntoggle-popup">
+  <a href="https://wiboomedia.com/que-son-las-aplicaciones-web-ventajas-y-tipos-de-desarrollo-web/" data-role="button" id="cua">
+  <p> Más info.</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>imagenes acerca de:</h1><div> <div class="ui-table-columntoggle-popup"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('s1','','imagenes/sut2.jpg',1)"><img src="imagenes/sust1.jpeg" width="20%" height="20%" id="s1"></a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bu','','imagenes/sss2.jpg',1)"><img src="imagenes/sss.jpg" width="20%" height="20%" id="bu"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('va','','imagenes/su2.jpg',1)"><img src="imagenes/su.png" width="20%" height="20%" id="va"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ja','','imagenes/h2.gif',1)"><img src="imagenes/h.gif" width="20%" height="20%" id="ja"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('yoo','','imagenes/yo2.png',1)"><img src="imagenes/yo.png" width="19%" height="19%" id="yoo"></a></div></div>
+   </div>
+   </div>
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:55%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="#" data-role="button" id="come">
+  <h2>Datos del autor</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div></div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1> Desde el comienzo..</h1>
+          </div>
+          <div data-role="content" align="center">
+          <h2>Creador del HTML</h2> <p>El <strong>origen del lenguaje HTML</strong> se remonta al físico <strong>Tim Berners-Lee</strong>, un trabajador del CERN (Organización Europea para la Investigación Nuclear) quien a finales de 1989 propuso el lenguaje HTML junto con el protocolo HTTP, cuya finalidad era crear un medio para poder compartir información entre diversos "grandes"físicos de la época que trabajaban por todo el mundo.</p> <h2>Orígenes del HTML</h2> <p>El primer documento que se publicó de manera formal, sobre la <strong>estructura del HTML</strong> se publicó en el año de 1991 con el nombre de: "<strong>HTML Tags</strong>", simplemente texto en donde se explican las etiquetas que se usan en HTML. Este documento aun se encuentra disponible para su consulta en la web: <a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" target="_blank">HTML Tags</a>.</p> <p>Tal y como explica el documento, en HTML se utilizan etiquetas de apertura y de cierre (solo en algunas excepciones no) en donde se abre con los corchetes angulares y se cierra de igual manera con los corchetes pero anteponiendo un  (/).</p> <p>Es decir: &lt;Title&gt;&lt;/Title&gt;</p> <h3>Versiones de HTML</h3> <p>El primero en salir fue el HTML 1, sin embargo no fue considerado un estándar, por lo que muchas veces se considera al HTML 2 como la primera versión del HTML.</p> <p><strong>HTML</strong> <strong>2: </strong>Presentado en el año de 1995, el HTML 2 es considerado la<strong> primera versión del HTML</strong>, el cual no soportaba tablas y donde la declaración explícita de los elementos body, html y head es opcional.</p> <p><strong>HTML 3.2</strong>: Esta versión se lanzó en el año de 1997 gracias al organismo de estandarización llamado W3C (World Wide Web Consortium). El cual incorporó los últimos avances de las páginas web como applets de Java y texto que fluye alrededor de las imágenes.</p> <p><strong>HTML 4.0</strong>: Lanzada en 1998. Entre sus novedades más destacadas se encuentran las hojas de estilos CSS, la posibilidad de incluir pequeños programas o scripts en las páginas web, mejora de la accesibilidad de las páginas diseñadas, tablas complejas y mejoras en los formularios.</p> <p><strong>HTML 4.01</strong>: salió a la luz en 1999 como una revisión y actualización de la versión HTML 4.0, por lo que no incluye novedades significativas.</p> <p><strong>HTML 5</strong>: quinta revisión importante del lenguaje básico de la World Wide Web,  el cual especifica dos variantes de sintaxis para HTML: el clásico HTML (text/html), y la variante conocida como HTML5 y una variante <strong>XHTML</strong> conocida como sintaxis XHTML5. Este nuevo estándar aun no es tan utilizado pero su potencial es mucho mayor a las versiones anteriores, el cual incluye interesantes mejoras como nuevos elementos y etiquetas.</p><img src="imagenes/versiones.jpeg" width="50%" height="50%">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    </div>
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1> ¿Qué es HTML?</h1>
+          </div>
+          <div data-role="content" align="center">
+          <img src="imagenes/siglas.jpg" width=30% height="30%">
+          <p>HTML significa "Lenguaje de Marcado de Hypertexto" por sus siglas en ingles "HyperText Markup Language", es un lenguaje que pertenece a la familia de los "lenguajes de marcado" y es utilizado para la elaboración de páginas web. El estándar HTML lo define la W3C (World Wide Web Consortium) y actualmente HTML se encuentra en su versión HTML5.
+Cabe destacar que HTML no es un lenguaje de programación ya que no cuenta con funciones aritméticas, variables o estructuras de control propias de los lenguajes de programación, por lo que HTML genera únicamente páginas web estáticas, sin embargo, HTML se puede usar en conjunto con diversos lenguajes de programación para la creación de páginas web dinámicas.
+<h3>¿Para que sirve HTML?</h3>
+Básicamente el lenguaje HTML sirve para describir la estructura básica de una página y organizar la forma en que se mostrará su contenido, además de que HTML permite incluir enlaces (links) hacia otras páginas o documentos.
+HTML es un lenguaje de marcado descriptivo que se escribe en forma de etiquetas para definir la estructura de una página web y su contenido como texto, imágenes, entre otros, de modo que HTML es el encargado de describir (hasta cierto punto) la apariencia que tendrá la página web. 
+<h3>¿Que es un documento HTML?</h3>
+Para desarrollar una página web en HTML es necesario crear un documento HTML. Básicamente un documento HTML es un archivo de texto que tienen la extensión .html o .htm, en este documento se escriben todo el texto y las etiquetas HTML necesarias para la creación de una página, al texto escrito en el documento HTML se le llama código HTML. Un documento HTML se puede generar con cualquier editor de textos simple como el bloc de notas de Windows o Gedit de Linux. <h3>¿Que son las etiquetas HTML?</h3>
+Las etiquetas HTML son fragmentos de texto rodeados por corchetes angulares < >, que se utilizan para escribir código HTML, en HTML existen etiquetas de apertura y etiquetas de cierre, tienen la forma: <etiqueta> </etiqueta>. Donde <etiqueta> es la etiqueta de apertura y </etiqueta> es la etiqueta de cierre indicada por la diagonal. HTML tiene definidas gran variedad de etiquetas para distintos usos.</p> <h2> HTML(etiquetas)</h2><p>El código en HTML está formado por un conjunto  de etiquetas (tags).
+El navegador interpreta estas etiquetas al momento de cargar la página.</p>
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Inicio del conflicto</h1>
+          </div>
+          <div data-role="content" align="center">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    </div>
+    </ul>
+    </body>
+</html>

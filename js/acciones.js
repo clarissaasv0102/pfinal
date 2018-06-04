@@ -8,7 +8,7 @@ $(document).ready(function(e){
 			navigator.notification.vibrate(90);
 		}); //tap vibrar
 		$('#come').on('click',function(){
-	      navigator.notification("Clarissa Sanchez Victoria-4toF Tutorial DAW");
+	      navigator.notification.confirm("Clarissa Sanchez Victoria-4toF Tutorial DAW");
 });
 	},false); // cierre deviceready
 }); //cierre del ready

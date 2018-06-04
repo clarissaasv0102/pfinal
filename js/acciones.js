@@ -8,7 +8,7 @@ $(document).ready(function(e){
 			navigator.notification.vibrate(90);
 		}); //tap vibrar
 		$('#come').on('click',function(){
-	        alert('message:Clarissa_Sanchez_Victoria-Tutorial DAW');
+	        alert.notification('Clarissa_Sanchez_Victoria-Tutorial DAW 4to F');
 });
 	},false); // cierre deviceready
 }); //cierre del ready
